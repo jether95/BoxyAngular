@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    background-image: url(app/Images/pexels-polina-tankilevitch-5469042.jpg);
+    opacity: 2;
+    background-size: cover;
+	
+}
+
+body:before {
+	content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(234, 230, 229 ,0.5);
+}

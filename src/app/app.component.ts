@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'boxyStore';
+  constructor(private router: Router) {}
+  title = 'Boxy Store';
+
+  irAHome() {
+    this.router.navigate(['/home']);
+  }
+
+  goToUser() {
+    this.router.navigate(['/user']);
+  }
 }
