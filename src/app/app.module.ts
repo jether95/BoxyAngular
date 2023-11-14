@@ -7,12 +7,16 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { UserComponent } from './Components/user/user.component';
 import { HomeComponent } from './Components/home/home.component';
+import { ClientComponent } from './Components/client/client.component';
+import { AddClientComponent } from './Components/add-client/add-client.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserComponent,
-    HomeComponent
+    HomeComponent,
+    ClientComponent,
+    AddClientComponent
   ],
   imports: [
     BrowserModule,

@@ -1,8 +1,16 @@
-<div class="container">
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Usuario</th>
+            <th scope="col">Contraseña</th>
+        </tr>
+    </thead>
     <tbody>
         <tr *ngFor="let us of user">            
             <td>{{us.user}}</td>
             <td>{{us.password}}</td>
         </tr>
     </tbody>
-</div>
+
+</table>

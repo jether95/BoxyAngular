@@ -17,4 +17,7 @@ export class AppComponent {
   goToUser() {
     this.router.navigate(['/user']);
   }
+  goToClient() {
+    this.router.navigate(['/client']);
+  }
 }

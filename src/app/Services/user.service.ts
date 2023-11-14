@@ -18,7 +18,6 @@ export class UserService {
 
   getUser(){
     return this.http.get<User[]>(this.url+'user');
-
-  } 
+  }
 
 }
